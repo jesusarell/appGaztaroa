@@ -1,0 +1,359 @@
+Looking for git in: git
+Using git 2.17.1 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /home/jesus/Documentos/Master/DSM/ProyectosReactNative/appGaztaroa
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show :CampobaseComponent.js
+> git ls-files --stage -- /home/jesus/Documentos/Master/DSM/ProyectosReactNative/appGaztaroa/CampobaseComponent.js
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :CalendarioComponent.js
+> git ls-files --stage -- /home/jesus/Documentos/Master/DSM/ProyectosReactNative/appGaztaroa/CalendarioComponent.js
+> git check-ignore -v -z --stdin
+> git show :CampobaseComponent.js
+> git ls-files --stage -- /home/jesus/Documentos/Master/DSM/ProyectosReactNative/appGaztaroa/CampobaseComponent.js
+> git show :CalendarioComponent.js
+> git ls-files --stage -- /home/jesus/Documentos/Master/DSM/ProyectosReactNative/appGaztaroa/CalendarioComponent.js
+> git show :App.js
+> git ls-files --stage -- /home/jesus/Documentos/Master/DSM/ProyectosReactNative/appGaztaroa/App.js
+> git cat-file -s 7d771f2969e246634d955b58b52d9645c47a793b
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :componentes/CalendarioComponent.js
+> git ls-files --stage -- /home/jesus/Documentos/Master/DSM/ProyectosReactNative/appGaztaroa/componentes/CalendarioComponent.js
+> git show :componentes/CampobaseComponent.js
+> git ls-files --stage -- /home/jesus/Documentos/Master/DSM/ProyectosReactNative/appGaztaroa/componentes/CampobaseComponent.js
+> git show :componentes/CalendarioComponent.js
+> git ls-files --stage -- /home/jesus/Documentos/Master/DSM/ProyectosReactNative/appGaztaroa/componentes/CalendarioComponent.js
+> git show :componentes/CampobaseComponent.js
+> git ls-files --stage -- /home/jesus/Documentos/Master/DSM/ProyectosReactNative/appGaztaroa/componentes/CampobaseComponent.js
+> git check-ignore -v -z --stdin
+> git show :comun/excursiones.js
+> git ls-files --stage -- /home/jesus/Documentos/Master/DSM/ProyectosReactNative/appGaztaroa/comun/excursiones.js
+> git show :App.js
+> git ls-files --stage -- /home/jesus/Documentos/Master/DSM/ProyectosReactNative/appGaztaroa/App.js
+> git cat-file -s 7d771f2969e246634d955b58b52d9645c47a793b
+> git show :componentes/CalendarioComponent.js
+> git ls-files --stage -- /home/jesus/Documentos/Master/DSM/ProyectosReactNative/appGaztaroa/componentes/CalendarioComponent.js
+> git status -z -u
+> git ls-files --stage -- /home/jesus/Documentos/Master/DSM/ProyectosReactNative/appGaztaroa/componentes/CalendarioComponent.js
+> git cat-file -s 21972c10545e47c7765cb030d3f85e02e0b70457
+> git show :componentes/CalendarioComponent.js
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :componentes/DetalleExcursionComponent.js
+> git ls-files --stage -- /home/jesus/Documentos/Master/DSM/ProyectosReactNative/appGaztaroa/componentes/DetalleExcursionComponent.js
+> git check-ignore -v -z --stdin
+> git show :componentes/CampobaseComponent.js
+> git ls-files --stage -- /home/jesus/Documentos/Master/DSM/ProyectosReactNative/appGaztaroa/componentes/CampobaseComponent.js
+> git cat-file -s 464d9288dfdd6122cf36b032faf9d2d6a6c6c8fa
+> git show :componentes/CalendarioComponent.js
+> git ls-files --stage -- /home/jesus/Documentos/Master/DSM/ProyectosReactNative/appGaztaroa/componentes/CalendarioComponent.js
+> git cat-file -s 21972c10545e47c7765cb030d3f85e02e0b70457
+> git show :componentes/DetalleExcursionComponent.js
+> git ls-files --stage -- /home/jesus/Documentos/Master/DSM/ProyectosReactNative/appGaztaroa/componentes/DetalleExcursionComponent.js
+> git check-ignore -v -z --stdin
+> git show :comun/excursiones.js
+> git ls-files --stage -- /home/jesus/Documentos/Master/DSM/ProyectosReactNative/appGaztaroa/comun/excursiones.js
+> git cat-file -s f0c2843d2e375b94c132dd26328be8a9ad890cfc
+> git show :componentes/CalendarioComponent.js
+> git ls-files --stage -- /home/jesus/Documentos/Master/DSM/ProyectosReactNative/appGaztaroa/componentes/CalendarioComponent.js
+> git cat-file -s 21972c10545e47c7765cb030d3f85e02e0b70457
+> git show :componentes/DetalleExcursionComponent.js
+> git ls-files --stage -- /home/jesus/Documentos/Master/DSM/ProyectosReactNative/appGaztaroa/componentes/DetalleExcursionComponent.js
+> git show :componentes/CampobaseComponent.js
+> git ls-files --stage -- /home/jesus/Documentos/Master/DSM/ProyectosReactNative/appGaztaroa/componentes/CampobaseComponent.js
+> git cat-file -s 464d9288dfdd6122cf36b032faf9d2d6a6c6c8fa
+> git show :comun/excursiones.js
+> git ls-files --stage -- /home/jesus/Documentos/Master/DSM/ProyectosReactNative/appGaztaroa/comun/excursiones.js
+> git cat-file -s f0c2843d2e375b94c132dd26328be8a9ad890cfc
+> git show :componentes/CalendarioComponent.js
+> git ls-files --stage -- /home/jesus/Documentos/Master/DSM/ProyectosReactNative/appGaztaroa/componentes/CalendarioComponent.js
+> git cat-file -s 21972c10545e47c7765cb030d3f85e02e0b70457
+> git show :componentes/DetalleExcursionComponent.js
+> git ls-files --stage -- /home/jesus/Documentos/Master/DSM/ProyectosReactNative/appGaztaroa/componentes/DetalleExcursionComponent.js
+> git show :componentes/CampobaseComponent.js
+> git ls-files --stage -- /home/jesus/Documentos/Master/DSM/ProyectosReactNative/appGaztaroa/componentes/CampobaseComponent.js
+> git cat-file -s 464d9288dfdd6122cf36b032faf9d2d6a6c6c8fa
+> git show :componentes/CalendarioComponent.js
+> git ls-files --stage -- /home/jesus/Documentos/Master/DSM/ProyectosReactNative/appGaztaroa/componentes/CalendarioComponent.js
+> git cat-file -s 21972c10545e47c7765cb030d3f85e02e0b70457
+> git show :componentes/CampobaseComponent.js
+> git ls-files --stage -- /home/jesus/Documentos/Master/DSM/ProyectosReactNative/appGaztaroa/componentes/CampobaseComponent.js
+> git cat-file -s 464d9288dfdd6122cf36b032faf9d2d6a6c6c8fa
+> git show :componentes/CalendarioComponent.js
+> git ls-files --stage -- /home/jesus/Documentos/Master/DSM/ProyectosReactNative/appGaztaroa/componentes/CalendarioComponent.js
+> git cat-file -s 21972c10545e47c7765cb030d3f85e02e0b70457
+> git show :componentes/DetalleExcursionComponent.js
+> git ls-files --stage -- /home/jesus/Documentos/Master/DSM/ProyectosReactNative/appGaztaroa/componentes/DetalleExcursionComponent.js
+> git show :componentes/CampobaseComponent.js
+> git ls-files --stage -- /home/jesus/Documentos/Master/DSM/ProyectosReactNative/appGaztaroa/componentes/CampobaseComponent.js
+> git cat-file -s 464d9288dfdd6122cf36b032faf9d2d6a6c6c8fa
+> git status -z -u
+> git ls-files --stage -- /home/jesus/Documentos/Master/DSM/ProyectosReactNative/appGaztaroa/componentes/CampobaseComponent.js
+> git symbolic-ref --short HEAD
+> git cat-file -s 2a70796b31d7e7faf4614947331551bc999adb2d
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git show :componentes/CampobaseComponent.js
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :componentes/CalendarioComponent.js
+> git ls-files --stage -- /home/jesus/Documentos/Master/DSM/ProyectosReactNative/appGaztaroa/componentes/CalendarioComponent.js
+> git cat-file -s 2e220bf16f7f27b3f96c6c69df3db49c75d7ca11
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :componentes/CampobaseComponent.js
+> git ls-files --stage -- /home/jesus/Documentos/Master/DSM/ProyectosReactNative/appGaztaroa/componentes/CampobaseComponent.js
+> git cat-file -s 2a70796b31d7e7faf4614947331551bc999adb2d
+> git show :componentes/DetalleExcursionComponent.js
+> git ls-files --stage -- /home/jesus/Documentos/Master/DSM/ProyectosReactNative/appGaztaroa/componentes/DetalleExcursionComponent.js
+> git cat-file -s 46794d6edc3c171676ea5e59dff225e3d0de7c64
+> git show :App.js
+> git ls-files --stage -- /home/jesus/Documentos/Master/DSM/ProyectosReactNative/appGaztaroa/App.js
+> git cat-file -s af55f1fda19db3feb94f67cbd9ad97f4361e8066
+> git show :componentes/CampobaseComponent.js
+> git ls-files --stage -- /home/jesus/Documentos/Master/DSM/ProyectosReactNative/appGaztaroa/componentes/CampobaseComponent.js
+> git cat-file -s 2a70796b31d7e7faf4614947331551bc999adb2d
+> git show :comun/excursiones.js
+> git ls-files --stage -- /home/jesus/Documentos/Master/DSM/ProyectosReactNative/appGaztaroa/comun/excursiones.js
+> git cat-file -s f0c2843d2e375b94c132dd26328be8a9ad890cfc
+> git show :componentes/CampobaseComponent.js
+> git ls-files --stage -- /home/jesus/Documentos/Master/DSM/ProyectosReactNative/appGaztaroa/componentes/CampobaseComponent.js
+> git cat-file -s 2a70796b31d7e7faf4614947331551bc999adb2d
+> git show :componentes/CalendarioComponent.js
+> git ls-files --stage -- /home/jesus/Documentos/Master/DSM/ProyectosReactNative/appGaztaroa/componentes/CalendarioComponent.js
+> git cat-file -s 2e220bf16f7f27b3f96c6c69df3db49c75d7ca11
+> git show :componentes/CampobaseComponent.js
+> git ls-files --stage -- /home/jesus/Documentos/Master/DSM/ProyectosReactNative/appGaztaroa/componentes/CampobaseComponent.js
+> git cat-file -s 2a70796b31d7e7faf4614947331551bc999adb2d
+> git show :componentes/CalendarioComponent.js
+> git ls-files --stage -- /home/jesus/Documentos/Master/DSM/ProyectosReactNative/appGaztaroa/componentes/CalendarioComponent.js
+> git cat-file -s 2e220bf16f7f27b3f96c6c69df3db49c75d7ca11
+> git show :componentes/CampobaseComponent.js
+> git ls-files --stage -- /home/jesus/Documentos/Master/DSM/ProyectosReactNative/appGaztaroa/componentes/CampobaseComponent.js
+> git cat-file -s 2a70796b31d7e7faf4614947331551bc999adb2d
+> git show :componentes/CalendarioComponent.js
+> git ls-files --stage -- /home/jesus/Documentos/Master/DSM/ProyectosReactNative/appGaztaroa/componentes/CalendarioComponent.js
+> git cat-file -s 2e220bf16f7f27b3f96c6c69df3db49c75d7ca11
+> git show :componentes/CampobaseComponent.js
+> git ls-files --stage -- /home/jesus/Documentos/Master/DSM/ProyectosReactNative/appGaztaroa/componentes/CampobaseComponent.js
+> git cat-file -s 2a70796b31d7e7faf4614947331551bc999adb2d
+> git show :componentes/CalendarioComponent.js
+> git ls-files --stage -- /home/jesus/Documentos/Master/DSM/ProyectosReactNative/appGaztaroa/componentes/CalendarioComponent.js
+> git cat-file -s 2e220bf16f7f27b3f96c6c69df3db49c75d7ca11
+> git show :componentes/DetalleExcursionComponent.js
+> git ls-files --stage -- /home/jesus/Documentos/Master/DSM/ProyectosReactNative/appGaztaroa/componentes/DetalleExcursionComponent.js
+> git cat-file -s 46794d6edc3c171676ea5e59dff225e3d0de7c64
+> git show :componentes/CalendarioComponent.js
+> git ls-files --stage -- /home/jesus/Documentos/Master/DSM/ProyectosReactNative/appGaztaroa/componentes/CalendarioComponent.js
+> git cat-file -s 2e220bf16f7f27b3f96c6c69df3db49c75d7ca11
+> git show :componentes/DetalleExcursionComponent.js
+> git ls-files --stage -- /home/jesus/Documentos/Master/DSM/ProyectosReactNative/appGaztaroa/componentes/DetalleExcursionComponent.js
+> git cat-file -s 46794d6edc3c171676ea5e59dff225e3d0de7c64
+> git show :componentes/CalendarioComponent.js
+> git ls-files --stage -- /home/jesus/Documentos/Master/DSM/ProyectosReactNative/appGaztaroa/componentes/CalendarioComponent.js
+> git cat-file -s 2e220bf16f7f27b3f96c6c69df3db49c75d7ca11
+> git show :componentes/CampobaseComponent.js
+> git ls-files --stage -- /home/jesus/Documentos/Master/DSM/ProyectosReactNative/appGaztaroa/componentes/CampobaseComponent.js
+> git cat-file -s 2a70796b31d7e7faf4614947331551bc999adb2d
+> git show :componentes/CalendarioComponent.js
+> git ls-files --stage -- /home/jesus/Documentos/Master/DSM/ProyectosReactNative/appGaztaroa/componentes/CalendarioComponent.js
+> git cat-file -s 2e220bf16f7f27b3f96c6c69df3db49c75d7ca11
+> git show :componentes/CampobaseComponent.js
+> git ls-files --stage -- /home/jesus/Documentos/Master/DSM/ProyectosReactNative/appGaztaroa/componentes/CampobaseComponent.js
+> git cat-file -s 2a70796b31d7e7faf4614947331551bc999adb2d
+> git show :componentes/CalendarioComponent.js
+> git ls-files --stage -- /home/jesus/Documentos/Master/DSM/ProyectosReactNative/appGaztaroa/componentes/CalendarioComponent.js
+> git cat-file -s 2e220bf16f7f27b3f96c6c69df3db49c75d7ca11
+> git show :componentes/DetalleExcursionComponent.js
+> git ls-files --stage -- /home/jesus/Documentos/Master/DSM/ProyectosReactNative/appGaztaroa/componentes/DetalleExcursionComponent.js
+> git cat-file -s 46794d6edc3c171676ea5e59dff225e3d0de7c64
+> git show :componentes/CalendarioComponent.js
+> git ls-files --stage -- /home/jesus/Documentos/Master/DSM/ProyectosReactNative/appGaztaroa/componentes/CalendarioComponent.js
+> git cat-file -s 2e220bf16f7f27b3f96c6c69df3db49c75d7ca11
+> git show :componentes/DetalleExcursionComponent.js
+> git ls-files --stage -- /home/jesus/Documentos/Master/DSM/ProyectosReactNative/appGaztaroa/componentes/DetalleExcursionComponent.js
+> git cat-file -s 46794d6edc3c171676ea5e59dff225e3d0de7c64
+> git show :componentes/CalendarioComponent.js
+> git ls-files --stage -- /home/jesus/Documentos/Master/DSM/ProyectosReactNative/appGaztaroa/componentes/CalendarioComponent.js
+> git cat-file -s 2e220bf16f7f27b3f96c6c69df3db49c75d7ca11
+> git show :componentes/DetalleExcursionComponent.js
+> git ls-files --stage -- /home/jesus/Documentos/Master/DSM/ProyectosReactNative/appGaztaroa/componentes/DetalleExcursionComponent.js
+> git cat-file -s 46794d6edc3c171676ea5e59dff225e3d0de7c64
+> git show :componentes/CalendarioComponent.js
+> git ls-files --stage -- /home/jesus/Documentos/Master/DSM/ProyectosReactNative/appGaztaroa/componentes/CalendarioComponent.js
+> git cat-file -s 2e220bf16f7f27b3f96c6c69df3db49c75d7ca11
+> git show :componentes/CampobaseComponent.js
+> git ls-files --stage -- /home/jesus/Documentos/Master/DSM/ProyectosReactNative/appGaztaroa/componentes/CampobaseComponent.js
+> git cat-file -s 2a70796b31d7e7faf4614947331551bc999adb2d
+> git show :componentes/CalendarioComponent.js
+> git ls-files --stage -- /home/jesus/Documentos/Master/DSM/ProyectosReactNative/appGaztaroa/componentes/CalendarioComponent.js
+> git cat-file -s 2e220bf16f7f27b3f96c6c69df3db49c75d7ca11
+> git show :componentes/DetalleExcursionComponent.js
+> git ls-files --stage -- /home/jesus/Documentos/Master/DSM/ProyectosReactNative/appGaztaroa/componentes/DetalleExcursionComponent.js
+> git cat-file -s 46794d6edc3c171676ea5e59dff225e3d0de7c64
+> git show :componentes/CalendarioComponent.js
+> git ls-files --stage -- /home/jesus/Documentos/Master/DSM/ProyectosReactNative/appGaztaroa/componentes/CalendarioComponent.js
+> git cat-file -s 2e220bf16f7f27b3f96c6c69df3db49c75d7ca11
+> git show :componentes/CampobaseComponent.js
+> git ls-files --stage -- /home/jesus/Documentos/Master/DSM/ProyectosReactNative/appGaztaroa/componentes/CampobaseComponent.js
+> git cat-file -s 2a70796b31d7e7faf4614947331551bc999adb2d
+> git show :componentes/HomeComponent.js
+> git ls-files --stage -- /home/jesus/Documentos/Master/DSM/ProyectosReactNative/appGaztaroa/componentes/HomeComponent.js
+> git check-ignore -v -z --stdin
+> git show :componentes/CampobaseComponent.js
+> git ls-files --stage -- /home/jesus/Documentos/Master/DSM/ProyectosReactNative/appGaztaroa/componentes/CampobaseComponent.js
+> git cat-file -s 2a70796b31d7e7faf4614947331551bc999adb2d
+> git show :componentes/HomeComponent.js
+> git ls-files --stage -- /home/jesus/Documentos/Master/DSM/ProyectosReactNative/appGaztaroa/componentes/HomeComponent.js
+> git show :componentes/CampobaseComponent.js
+> git ls-files --stage -- /home/jesus/Documentos/Master/DSM/ProyectosReactNative/appGaztaroa/componentes/CampobaseComponent.js
+> git cat-file -s 2a70796b31d7e7faf4614947331551bc999adb2d
+> git status -z -u
+> git ls-files --stage -- /home/jesus/Documentos/Master/DSM/ProyectosReactNative/appGaztaroa/componentes/CampobaseComponent.js
+> git cat-file -s 07a1af8fc418a79cb7792c11a39dc1c479487430
+> git show :componentes/CampobaseComponent.js
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show :componentes/HomeComponent.js
+> git ls-files --stage -- /home/jesus/Documentos/Master/DSM/ProyectosReactNative/appGaztaroa/componentes/HomeComponent.js
+> git show :componentes/CampobaseComponent.js
+> git ls-files --stage -- /home/jesus/Documentos/Master/DSM/ProyectosReactNative/appGaztaroa/componentes/CampobaseComponent.js
+> git cat-file -s 07a1af8fc418a79cb7792c11a39dc1c479487430
+> git show :componentes/HomeComponent.js
+> git ls-files --stage -- /home/jesus/Documentos/Master/DSM/ProyectosReactNative/appGaztaroa/componentes/HomeComponent.js
+> git show :componentes/CampobaseComponent.js
+> git ls-files --stage -- /home/jesus/Documentos/Master/DSM/ProyectosReactNative/appGaztaroa/componentes/CampobaseComponent.js
+> git cat-file -s 07a1af8fc418a79cb7792c11a39dc1c479487430
+> git show :componentes/HomeComponent.js
+> git ls-files --stage -- /home/jesus/Documentos/Master/DSM/ProyectosReactNative/appGaztaroa/componentes/HomeComponent.js
+> git show :componentes/CampobaseComponent.js
+> git ls-files --stage -- /home/jesus/Documentos/Master/DSM/ProyectosReactNative/appGaztaroa/componentes/CampobaseComponent.js
+> git cat-file -s 07a1af8fc418a79cb7792c11a39dc1c479487430
+> git show :componentes/HomeComponent.js
+> git ls-files --stage -- /home/jesus/Documentos/Master/DSM/ProyectosReactNative/appGaztaroa/componentes/HomeComponent.js
+> git show :comun/actividades.js
+> git ls-files --stage -- /home/jesus/Documentos/Master/DSM/ProyectosReactNative/appGaztaroa/comun/actividades.js
+> git show :componentes/HomeComponent.js
+> git ls-files --stage -- /home/jesus/Documentos/Master/DSM/ProyectosReactNative/appGaztaroa/componentes/HomeComponent.js
+> git show :comun/cabeceras.js
+> git ls-files --stage -- /home/jesus/Documentos/Master/DSM/ProyectosReactNative/appGaztaroa/comun/cabeceras.js
+> git show :comun/actividades.js
+> git ls-files --stage -- /home/jesus/Documentos/Master/DSM/ProyectosReactNative/appGaztaroa/comun/actividades.js
+> git show :componentes/HomeComponent.js
+> git ls-files --stage -- /home/jesus/Documentos/Master/DSM/ProyectosReactNative/appGaztaroa/componentes/HomeComponent.js
+> git show :componentes/CampobaseComponent.js
+> git ls-files --stage -- /home/jesus/Documentos/Master/DSM/ProyectosReactNative/appGaztaroa/componentes/CampobaseComponent.js
+> git cat-file -s 07a1af8fc418a79cb7792c11a39dc1c479487430
+> git status -z -u
+> git ls-files --stage -- /home/jesus/Documentos/Master/DSM/ProyectosReactNative/appGaztaroa/componentes/CampobaseComponent.js
+> git symbolic-ref --short HEAD
+> git cat-file -s 6e58f85c1534de0c112bf16ace83d6c43efbabf8
+> git rev-parse master
+> git show :componentes/CampobaseComponent.js
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template

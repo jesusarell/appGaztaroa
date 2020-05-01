@@ -1,0 +1,685 @@
+[2020-04-14 11:12:49.590] [exthost] [info] extension host started
+[2020-04-14 11:12:49.630] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2020-04-14 11:12:49.630] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2020-04-14 11:12:49.638] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2020-04-14 11:12:49.638] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/emmet/dist/extension
+[2020-04-14 11:12:49.666] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.git","_lower":"vscode.git"},"activationEvent":"*"}
+[2020-04-14 11:12:49.666] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/git/dist/main
+[2020-04-14 11:12:49.705] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication {"startup":true,"extensionId":{"value":"vscode.github-authentication","_lower":"vscode.github-authentication"},"activationEvent":"*"}
+[2020-04-14 11:12:49.705] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/github-authentication/dist/extension.js
+[2020-04-14 11:12:49.707] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2020-04-14 11:12:49.707] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/merge-conflict/dist/extension
+[2020-04-14 11:12:49.710] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-result {"startup":true,"extensionId":{"value":"vscode.search-result","_lower":"vscode.search-result"},"activationEvent":"*"}
+[2020-04-14 11:12:49.710] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/search-result/dist/extension.js
+[2020-04-14 11:12:49.711] [exthost] [info] ExtensionService#_doActivateExtension vscode.vscode-account {"startup":true,"extensionId":{"value":"vscode.vscode-account","_lower":"vscode.vscode-account"},"activationEvent":"*"}
+[2020-04-14 11:12:49.711] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/vscode-account/dist/extension.js
+[2020-04-14 11:12:49.714] [exthost] [info] eager extensions activated
+[2020-04-14 11:13:02.891] [exthost] [info] extension host started
+[2020-04-14 11:13:02.931] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2020-04-14 11:13:02.931] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2020-04-14 11:13:02.937] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2020-04-14 11:13:02.937] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/emmet/dist/extension
+[2020-04-14 11:13:02.946] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.git","_lower":"vscode.git"},"activationEvent":"*"}
+[2020-04-14 11:13:02.946] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/git/dist/main
+[2020-04-14 11:13:02.959] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication {"startup":true,"extensionId":{"value":"vscode.github-authentication","_lower":"vscode.github-authentication"},"activationEvent":"*"}
+[2020-04-14 11:13:02.959] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/github-authentication/dist/extension.js
+[2020-04-14 11:13:02.960] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2020-04-14 11:13:02.961] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/merge-conflict/dist/extension
+[2020-04-14 11:13:02.963] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-result {"startup":true,"extensionId":{"value":"vscode.search-result","_lower":"vscode.search-result"},"activationEvent":"*"}
+[2020-04-14 11:13:02.963] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/search-result/dist/extension.js
+[2020-04-14 11:13:02.964] [exthost] [info] ExtensionService#_doActivateExtension vscode.vscode-account {"startup":true,"extensionId":{"value":"vscode.vscode-account","_lower":"vscode.vscode-account"},"activationEvent":"*"}
+[2020-04-14 11:13:02.964] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/vscode-account/dist/extension.js
+[2020-04-14 11:13:02.987] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm {"startup":true,"extensionId":{"value":"vscode.npm","_lower":"vscode.npm"},"activationEvent":"workspaceContains:package.json"}
+[2020-04-14 11:13:02.988] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/npm/dist/main
+[2020-04-14 11:13:03.025] [exthost] [info] eager extensions activated
+[2020-04-14 11:13:23.781] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"extensionId":{"value":"vscode.typescript-language-features","_lower":"vscode.typescript-language-features"},"activationEvent":"onLanguage:javascript"}
+[2020-04-14 11:13:23.781] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/typescript-language-features/dist/extension
+[2020-04-14 11:13:23.806] [exthost] [info] ExtensionService#_doActivateExtension lonefy.vscode-JS-CSS-HTML-formatter {"startup":false,"extensionId":{"value":"lonefy.vscode-JS-CSS-HTML-formatter","_lower":"lonefy.vscode-js-css-html-formatter"},"activationEvent":"onLanguage:javascript"}
+[2020-04-14 11:13:23.806] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/jesus/.vscode/extensions/lonefy.vscode-js-css-html-formatter-0.2.3/out/src/extension
+[2020-04-14 11:31:19.218] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-14 11:31:19.219] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-14 11:31:20.056] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-14 11:31:20.057] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-14 11:31:41.073] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing {"startup":false,"extensionId":{"value":"vscode.extension-editing","_lower":"vscode.extension-editing"},"activationEvent":"onLanguage:typescript"}
+[2020-04-14 11:31:41.074] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/extension-editing/dist/extension
+[2020-04-14 12:56:05.883] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-14 12:56:05.893] [exthost] [error] Error: <semantic> TypeScript Server Error (3.8.3)
+Debug Failure. Did not expect JsxSelfClosingElement to have an Identifier in its trivia
+Error: Debug Failure. Did not expect JsxSelfClosingElement to have an Identifier in its trivia
+    at addSyntheticNodes (tsserver.js:134312:30)
+    at createChildren (tsserver.js:134301:9)
+    at NodeObject.getChildren (tsserver.js:134245:56)
+    at getTokenAtPositionWorker (tsserver.js:106279:43)
+    at getTouchingToken (tsserver.js:106266:16)
+    at Object.getTouchingPropertyName (tsserver.js:106258:16)
+    at Object.getDocumentHighlights (tsserver.js:111707:27)
+    at Proxy.getDocumentHighlights (tsserver.js:135456:42)
+    at IOSession.Session.getDocumentHighlights (tsserver.js:145100:71)
+    at Session.handlers.ts.createMapFromTemplate._a.<computed> (tsserver.js:144490:61)
+    at tsserver.js:146003:88
+    at IOSession.Session.executeWithRequestId (tsserver.js:145994:28)
+    at IOSession.Session.executeCommand (tsserver.js:146003:33)
+    at IOSession.Session.onMessage (tsserver.js:146027:35)
+    at Interface.<anonymous> (tsserver.js:147342:27)
+    at Interface.emit (events.js:203:13)
+    at Interface._onLine (readline.js:316:10)
+    at Interface._normalWrite (readline.js:461:12)
+    at Socket.ondata (readline.js:172:10)
+    at Socket.emit (events.js:203:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+	at Function.create (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:49958)
+	at h.dispatchResponse (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:216914)
+	at h.dispatchMessage (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:215832)
+	at /usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:215308
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:845)
+	at t.Reader.onLengthData (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:223870)
+	at Socket.<anonymous> (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:223518)
+	at Socket.emit (events.js:203:13)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:276:11)
+	at Socket.Readable.push (_stream_readable.js:210:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+[2020-04-14 12:56:06.043] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-14 12:56:06.043] [exthost] [error] Error: <semantic> TypeScript Server Error (3.8.3)
+Debug Failure. Did not expect JsxSelfClosingElement to have an Identifier in its trivia
+Error: Debug Failure. Did not expect JsxSelfClosingElement to have an Identifier in its trivia
+    at addSyntheticNodes (tsserver.js:134312:30)
+    at createChildren (tsserver.js:134301:9)
+    at NodeObject.getChildren (tsserver.js:134245:56)
+    at getTokenAtPositionWorker (tsserver.js:106279:43)
+    at Object.getTokenAtPosition (tsserver.js:106271:16)
+    at getInfo (tsserver.js:130516:28)
+    at Object.getAvailableActions (tsserver.js:130500:28)
+    at tsserver.js:124592:128
+    at getIterator (tsserver.js:519:23)
+    at Object.flatMapIterator (tsserver.js:502:27)
+    at Object.getApplicableRefactors (tsserver.js:124591:36)
+    at Proxy.getApplicableRefactors (tsserver.js:135901:32)
+    at IOSession.Session.getApplicableRefactors (tsserver.js:145703:53)
+    at Session.handlers.ts.createMapFromTemplate._a.<computed> (tsserver.js:144528:61)
+    at tsserver.js:146003:88
+    at IOSession.Session.executeWithRequestId (tsserver.js:145994:28)
+    at IOSession.Session.executeCommand (tsserver.js:146003:33)
+    at IOSession.Session.onMessage (tsserver.js:146027:35)
+    at Interface.<anonymous> (tsserver.js:147342:27)
+    at Interface.emit (events.js:203:13)
+    at Interface._onLine (readline.js:316:10)
+    at Interface._normalWrite (readline.js:461:12)
+    at Socket.ondata (readline.js:172:10)
+    at Socket.emit (events.js:203:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+	at Function.create (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:49958)
+	at h.dispatchResponse (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:216914)
+	at h.dispatchMessage (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:215832)
+	at /usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:215308
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:845)
+	at t.Reader.onLengthData (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:223870)
+	at Socket.<anonymous> (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:223518)
+	at Socket.emit (events.js:203:13)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:276:11)
+	at Socket.Readable.push (_stream_readable.js:210:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+[2020-04-14 12:56:07.175] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-14 12:56:07.175] [exthost] [error] Error: <semantic> TypeScript Server Error (3.8.3)
+Debug Failure. Did not expect JsxSelfClosingElement to have an Identifier in its trivia
+Error: Debug Failure. Did not expect JsxSelfClosingElement to have an Identifier in its trivia
+    at addSyntheticNodes (tsserver.js:134312:30)
+    at createChildren (tsserver.js:134301:9)
+    at NodeObject.getChildren (tsserver.js:134245:56)
+    at getTokenAtPositionWorker (tsserver.js:106279:43)
+    at Object.getTokenAtPosition (tsserver.js:106271:16)
+    at getInfo (tsserver.js:130516:28)
+    at Object.getAvailableActions (tsserver.js:130500:28)
+    at tsserver.js:124592:128
+    at getIterator (tsserver.js:519:23)
+    at Object.flatMapIterator (tsserver.js:502:27)
+    at Object.getApplicableRefactors (tsserver.js:124591:36)
+    at Proxy.getApplicableRefactors (tsserver.js:135901:32)
+    at IOSession.Session.getApplicableRefactors (tsserver.js:145703:53)
+    at Session.handlers.ts.createMapFromTemplate._a.<computed> (tsserver.js:144528:61)
+    at tsserver.js:146003:88
+    at IOSession.Session.executeWithRequestId (tsserver.js:145994:28)
+    at IOSession.Session.executeCommand (tsserver.js:146003:33)
+    at IOSession.Session.onMessage (tsserver.js:146027:35)
+    at Interface.<anonymous> (tsserver.js:147342:27)
+    at Interface.emit (events.js:203:13)
+    at Interface._onLine (readline.js:316:10)
+    at Interface._normalWrite (readline.js:461:12)
+    at Socket.ondata (readline.js:172:10)
+    at Socket.emit (events.js:203:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+	at Function.create (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:49958)
+	at h.dispatchResponse (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:216914)
+	at h.dispatchMessage (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:215832)
+	at /usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:215308
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:845)
+	at t.Reader.onLengthData (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:223870)
+	at Socket.<anonymous> (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:223518)
+	at Socket.emit (events.js:203:13)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:276:11)
+	at Socket.Readable.push (_stream_readable.js:210:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+[2020-04-14 12:56:07.872] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-14 12:56:07.872] [exthost] [error] Error: <semantic> TypeScript Server Error (3.8.3)
+Debug Failure. Did not expect JsxSelfClosingElement to have an Identifier in its trivia
+Error: Debug Failure. Did not expect JsxSelfClosingElement to have an Identifier in its trivia
+    at addSyntheticNodes (tsserver.js:134312:30)
+    at createChildren (tsserver.js:134301:9)
+    at NodeObject.getChildren (tsserver.js:134245:56)
+    at getTokenAtPositionWorker (tsserver.js:106279:43)
+    at Object.getTokenAtPosition (tsserver.js:106271:16)
+    at getInfo (tsserver.js:130516:28)
+    at Object.getAvailableActions (tsserver.js:130500:28)
+    at tsserver.js:124592:128
+    at getIterator (tsserver.js:519:23)
+    at Object.flatMapIterator (tsserver.js:502:27)
+    at Object.getApplicableRefactors (tsserver.js:124591:36)
+    at Proxy.getApplicableRefactors (tsserver.js:135901:32)
+    at IOSession.Session.getApplicableRefactors (tsserver.js:145703:53)
+    at Session.handlers.ts.createMapFromTemplate._a.<computed> (tsserver.js:144528:61)
+    at tsserver.js:146003:88
+    at IOSession.Session.executeWithRequestId (tsserver.js:145994:28)
+    at IOSession.Session.executeCommand (tsserver.js:146003:33)
+    at IOSession.Session.onMessage (tsserver.js:146027:35)
+    at Interface.<anonymous> (tsserver.js:147342:27)
+    at Interface.emit (events.js:203:13)
+    at Interface._onLine (readline.js:316:10)
+    at Interface._normalWrite (readline.js:461:12)
+    at Socket.ondata (readline.js:172:10)
+    at Socket.emit (events.js:203:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+	at Function.create (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:49958)
+	at h.dispatchResponse (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:216914)
+	at h.dispatchMessage (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:215832)
+	at /usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:215308
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:845)
+	at t.Reader.onLengthData (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:223870)
+	at Socket.<anonymous> (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:223518)
+	at Socket.emit (events.js:203:13)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:276:11)
+	at Socket.Readable.push (_stream_readable.js:210:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+[2020-04-14 12:56:10.413] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-14 12:56:10.413] [exthost] [error] Error: <semantic> TypeScript Server Error (3.8.3)
+Debug Failure. Did not expect JsxSelfClosingElement to have an Identifier in its trivia
+Error: Debug Failure. Did not expect JsxSelfClosingElement to have an Identifier in its trivia
+    at addSyntheticNodes (tsserver.js:134312:30)
+    at createChildren (tsserver.js:134301:9)
+    at NodeObject.getChildren (tsserver.js:134245:56)
+    at getTokenAtPositionWorker (tsserver.js:106279:43)
+    at Object.getTokenAtPosition (tsserver.js:106271:16)
+    at getInfo (tsserver.js:130516:28)
+    at Object.getAvailableActions (tsserver.js:130500:28)
+    at tsserver.js:124592:128
+    at getIterator (tsserver.js:519:23)
+    at Object.flatMapIterator (tsserver.js:502:27)
+    at Object.getApplicableRefactors (tsserver.js:124591:36)
+    at Proxy.getApplicableRefactors (tsserver.js:135901:32)
+    at IOSession.Session.getApplicableRefactors (tsserver.js:145703:53)
+    at Session.handlers.ts.createMapFromTemplate._a.<computed> (tsserver.js:144528:61)
+    at tsserver.js:146003:88
+    at IOSession.Session.executeWithRequestId (tsserver.js:145994:28)
+    at IOSession.Session.executeCommand (tsserver.js:146003:33)
+    at IOSession.Session.onMessage (tsserver.js:146027:35)
+    at Interface.<anonymous> (tsserver.js:147342:27)
+    at Interface.emit (events.js:203:13)
+    at Interface._onLine (readline.js:316:10)
+    at Interface._normalWrite (readline.js:461:12)
+    at Socket.ondata (readline.js:172:10)
+    at Socket.emit (events.js:203:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+	at Function.create (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:49958)
+	at h.dispatchResponse (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:216914)
+	at h.dispatchMessage (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:215832)
+	at /usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:215308
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:845)
+	at t.Reader.onLengthData (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:223870)
+	at Socket.<anonymous> (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:223518)
+	at Socket.emit (events.js:203:13)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:276:11)
+	at Socket.Readable.push (_stream_readable.js:210:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+[2020-04-14 12:56:10.866] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-14 12:56:10.866] [exthost] [error] Error: <semantic> TypeScript Server Error (3.8.3)
+Debug Failure. Did not expect JsxSelfClosingElement to have an Identifier in its trivia
+Error: Debug Failure. Did not expect JsxSelfClosingElement to have an Identifier in its trivia
+    at addSyntheticNodes (tsserver.js:134312:30)
+    at createChildren (tsserver.js:134301:9)
+    at NodeObject.getChildren (tsserver.js:134245:56)
+    at getTokenAtPositionWorker (tsserver.js:106279:43)
+    at Object.getTokenAtPosition (tsserver.js:106271:16)
+    at getInfo (tsserver.js:130516:28)
+    at Object.getAvailableActions (tsserver.js:130500:28)
+    at tsserver.js:124592:128
+    at getIterator (tsserver.js:519:23)
+    at Object.flatMapIterator (tsserver.js:502:27)
+    at Object.getApplicableRefactors (tsserver.js:124591:36)
+    at Proxy.getApplicableRefactors (tsserver.js:135901:32)
+    at IOSession.Session.getApplicableRefactors (tsserver.js:145703:53)
+    at Session.handlers.ts.createMapFromTemplate._a.<computed> (tsserver.js:144528:61)
+    at tsserver.js:146003:88
+    at IOSession.Session.executeWithRequestId (tsserver.js:145994:28)
+    at IOSession.Session.executeCommand (tsserver.js:146003:33)
+    at IOSession.Session.onMessage (tsserver.js:146027:35)
+    at Interface.<anonymous> (tsserver.js:147342:27)
+    at Interface.emit (events.js:203:13)
+    at Interface._onLine (readline.js:316:10)
+    at Interface._normalWrite (readline.js:461:12)
+    at Socket.ondata (readline.js:172:10)
+    at Socket.emit (events.js:203:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+	at Function.create (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:49958)
+	at h.dispatchResponse (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:216914)
+	at h.dispatchMessage (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:215832)
+	at /usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:215308
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:845)
+	at t.Reader.onLengthData (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:223870)
+	at Socket.<anonymous> (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:223518)
+	at Socket.emit (events.js:203:13)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:276:11)
+	at Socket.Readable.push (_stream_readable.js:210:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+[2020-04-14 12:56:11.230] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-14 12:56:11.230] [exthost] [error] Error: <semantic> TypeScript Server Error (3.8.3)
+Debug Failure. Did not expect JsxSelfClosingElement to have an Identifier in its trivia
+Error: Debug Failure. Did not expect JsxSelfClosingElement to have an Identifier in its trivia
+    at addSyntheticNodes (tsserver.js:134312:30)
+    at createChildren (tsserver.js:134301:9)
+    at NodeObject.getChildren (tsserver.js:134245:56)
+    at getTokenAtPositionWorker (tsserver.js:106279:43)
+    at Object.getTokenAtPosition (tsserver.js:106271:16)
+    at getInfo (tsserver.js:130516:28)
+    at Object.getAvailableActions (tsserver.js:130500:28)
+    at tsserver.js:124592:128
+    at getIterator (tsserver.js:519:23)
+    at Object.flatMapIterator (tsserver.js:502:27)
+    at Object.getApplicableRefactors (tsserver.js:124591:36)
+    at Proxy.getApplicableRefactors (tsserver.js:135901:32)
+    at IOSession.Session.getApplicableRefactors (tsserver.js:145703:53)
+    at Session.handlers.ts.createMapFromTemplate._a.<computed> (tsserver.js:144528:61)
+    at tsserver.js:146003:88
+    at IOSession.Session.executeWithRequestId (tsserver.js:145994:28)
+    at IOSession.Session.executeCommand (tsserver.js:146003:33)
+    at IOSession.Session.onMessage (tsserver.js:146027:35)
+    at Interface.<anonymous> (tsserver.js:147342:27)
+    at Interface.emit (events.js:203:13)
+    at Interface._onLine (readline.js:316:10)
+    at Interface._normalWrite (readline.js:461:12)
+    at Socket.ondata (readline.js:172:10)
+    at Socket.emit (events.js:203:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+	at Function.create (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:49958)
+	at h.dispatchResponse (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:216914)
+	at h.dispatchMessage (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:215832)
+	at /usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:215308
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:845)
+	at t.Reader.onLengthData (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:223870)
+	at Socket.<anonymous> (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:223518)
+	at Socket.emit (events.js:203:13)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:276:11)
+	at Socket.Readable.push (_stream_readable.js:210:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+[2020-04-14 12:56:12.093] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-14 12:56:12.094] [exthost] [error] Error: <semantic> TypeScript Server Error (3.8.3)
+Debug Failure. Did not expect JsxSelfClosingElement to have an Identifier in its trivia
+Error: Debug Failure. Did not expect JsxSelfClosingElement to have an Identifier in its trivia
+    at addSyntheticNodes (tsserver.js:134312:30)
+    at createChildren (tsserver.js:134301:9)
+    at NodeObject.getChildren (tsserver.js:134245:56)
+    at getTokenAtPositionWorker (tsserver.js:106279:43)
+    at Object.getTokenAtPosition (tsserver.js:106271:16)
+    at getInfo (tsserver.js:130516:28)
+    at Object.getAvailableActions (tsserver.js:130500:28)
+    at tsserver.js:124592:128
+    at getIterator (tsserver.js:519:23)
+    at Object.flatMapIterator (tsserver.js:502:27)
+    at Object.getApplicableRefactors (tsserver.js:124591:36)
+    at Proxy.getApplicableRefactors (tsserver.js:135901:32)
+    at IOSession.Session.getApplicableRefactors (tsserver.js:145703:53)
+    at Session.handlers.ts.createMapFromTemplate._a.<computed> (tsserver.js:144528:61)
+    at tsserver.js:146003:88
+    at IOSession.Session.executeWithRequestId (tsserver.js:145994:28)
+    at IOSession.Session.executeCommand (tsserver.js:146003:33)
+    at IOSession.Session.onMessage (tsserver.js:146027:35)
+    at Interface.<anonymous> (tsserver.js:147342:27)
+    at Interface.emit (events.js:203:13)
+    at Interface._onLine (readline.js:316:10)
+    at Interface._normalWrite (readline.js:461:12)
+    at Socket.ondata (readline.js:172:10)
+    at Socket.emit (events.js:203:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+	at Function.create (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:49958)
+	at h.dispatchResponse (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:216914)
+	at h.dispatchMessage (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:215832)
+	at /usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:215308
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:845)
+	at t.Reader.onLengthData (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:223870)
+	at Socket.<anonymous> (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:223518)
+	at Socket.emit (events.js:203:13)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:276:11)
+	at Socket.Readable.push (_stream_readable.js:210:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+[2020-04-14 12:56:31.167] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-14 12:56:31.167] [exthost] [error] Error: <semantic> TypeScript Server Error (3.8.3)
+Debug Failure. Did not expect JsxSelfClosingElement to have an Identifier in its trivia
+Error: Debug Failure. Did not expect JsxSelfClosingElement to have an Identifier in its trivia
+    at addSyntheticNodes (tsserver.js:134312:30)
+    at createChildren (tsserver.js:134301:9)
+    at NodeObject.getChildren (tsserver.js:134245:56)
+    at getTokenAtPositionWorker (tsserver.js:106279:43)
+    at getTouchingToken (tsserver.js:106266:16)
+    at Object.getTouchingPropertyName (tsserver.js:106258:16)
+    at Object.getDocumentHighlights (tsserver.js:111707:27)
+    at Proxy.getDocumentHighlights (tsserver.js:135456:42)
+    at IOSession.Session.getDocumentHighlights (tsserver.js:145100:71)
+    at Session.handlers.ts.createMapFromTemplate._a.<computed> (tsserver.js:144490:61)
+    at tsserver.js:146003:88
+    at IOSession.Session.executeWithRequestId (tsserver.js:145994:28)
+    at IOSession.Session.executeCommand (tsserver.js:146003:33)
+    at IOSession.Session.onMessage (tsserver.js:146027:35)
+    at Interface.<anonymous> (tsserver.js:147342:27)
+    at Interface.emit (events.js:203:13)
+    at Interface._onLine (readline.js:316:10)
+    at Interface._normalWrite (readline.js:461:12)
+    at Socket.ondata (readline.js:172:10)
+    at Socket.emit (events.js:203:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+	at Function.create (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:49958)
+	at h.dispatchResponse (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:216914)
+	at h.dispatchMessage (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:215832)
+	at /usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:215308
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:845)
+	at t.Reader.onLengthData (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:223870)
+	at Socket.<anonymous> (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:223518)
+	at Socket.emit (events.js:203:13)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:276:11)
+	at Socket.Readable.push (_stream_readable.js:210:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+[2020-04-14 12:56:32.429] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-14 12:56:32.430] [exthost] [error] Error: <semantic> TypeScript Server Error (3.8.3)
+Debug Failure. Did not expect JsxSelfClosingElement to have an Identifier in its trivia
+Error: Debug Failure. Did not expect JsxSelfClosingElement to have an Identifier in its trivia
+    at addSyntheticNodes (tsserver.js:134312:30)
+    at createChildren (tsserver.js:134301:9)
+    at NodeObject.getChildren (tsserver.js:134245:56)
+    at getTokenAtPositionWorker (tsserver.js:106279:43)
+    at getTouchingToken (tsserver.js:106266:16)
+    at Object.getTouchingPropertyName (tsserver.js:106258:16)
+    at Object.getDocumentHighlights (tsserver.js:111707:27)
+    at Proxy.getDocumentHighlights (tsserver.js:135456:42)
+    at IOSession.Session.getDocumentHighlights (tsserver.js:145100:71)
+    at Session.handlers.ts.createMapFromTemplate._a.<computed> (tsserver.js:144490:61)
+    at tsserver.js:146003:88
+    at IOSession.Session.executeWithRequestId (tsserver.js:145994:28)
+    at IOSession.Session.executeCommand (tsserver.js:146003:33)
+    at IOSession.Session.onMessage (tsserver.js:146027:35)
+    at Interface.<anonymous> (tsserver.js:147342:27)
+    at Interface.emit (events.js:203:13)
+    at Interface._onLine (readline.js:316:10)
+    at Interface._normalWrite (readline.js:461:12)
+    at Socket.ondata (readline.js:172:10)
+    at Socket.emit (events.js:203:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+	at Function.create (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:49958)
+	at h.dispatchResponse (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:216914)
+	at h.dispatchMessage (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:215832)
+	at /usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:215308
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:845)
+	at t.Reader.onLengthData (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:223870)
+	at Socket.<anonymous> (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:223518)
+	at Socket.emit (events.js:203:13)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:276:11)
+	at Socket.Readable.push (_stream_readable.js:210:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+[2020-04-14 12:56:35.545] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-14 12:56:35.545] [exthost] [error] Error: <semantic> TypeScript Server Error (3.8.3)
+Debug Failure. Did not expect JsxSelfClosingElement to have an Identifier in its trivia
+Error: Debug Failure. Did not expect JsxSelfClosingElement to have an Identifier in its trivia
+    at addSyntheticNodes (tsserver.js:134312:30)
+    at createChildren (tsserver.js:134301:9)
+    at NodeObject.getChildren (tsserver.js:134245:56)
+    at getTokenAtPositionWorker (tsserver.js:106279:43)
+    at Object.getTokenAtPosition (tsserver.js:106271:16)
+    at getInfo (tsserver.js:130516:28)
+    at Object.getAvailableActions (tsserver.js:130500:28)
+    at tsserver.js:124592:128
+    at getIterator (tsserver.js:519:23)
+    at Object.flatMapIterator (tsserver.js:502:27)
+    at Object.getApplicableRefactors (tsserver.js:124591:36)
+    at Proxy.getApplicableRefactors (tsserver.js:135901:32)
+    at IOSession.Session.getApplicableRefactors (tsserver.js:145703:53)
+    at Session.handlers.ts.createMapFromTemplate._a.<computed> (tsserver.js:144528:61)
+    at tsserver.js:146003:88
+    at IOSession.Session.executeWithRequestId (tsserver.js:145994:28)
+    at IOSession.Session.executeCommand (tsserver.js:146003:33)
+    at IOSession.Session.onMessage (tsserver.js:146027:35)
+    at Interface.<anonymous> (tsserver.js:147342:27)
+    at Interface.emit (events.js:203:13)
+    at Interface._onLine (readline.js:316:10)
+    at Interface._normalWrite (readline.js:461:12)
+    at Socket.ondata (readline.js:172:10)
+    at Socket.emit (events.js:203:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+	at Function.create (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:49958)
+	at h.dispatchResponse (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:216914)
+	at h.dispatchMessage (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:215832)
+	at /usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:215308
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:845)
+	at t.Reader.onLengthData (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:223870)
+	at Socket.<anonymous> (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:223518)
+	at Socket.emit (events.js:203:13)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:276:11)
+	at Socket.Readable.push (_stream_readable.js:210:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+[2020-04-14 12:56:35.998] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-14 12:56:35.999] [exthost] [error] Error: <semantic> TypeScript Server Error (3.8.3)
+Debug Failure. Did not expect JsxSelfClosingElement to have an Identifier in its trivia
+Error: Debug Failure. Did not expect JsxSelfClosingElement to have an Identifier in its trivia
+    at addSyntheticNodes (tsserver.js:134312:30)
+    at createChildren (tsserver.js:134301:9)
+    at NodeObject.getChildren (tsserver.js:134245:56)
+    at getTokenAtPositionWorker (tsserver.js:106279:43)
+    at Object.getTokenAtPosition (tsserver.js:106271:16)
+    at getInfo (tsserver.js:130516:28)
+    at Object.getAvailableActions (tsserver.js:130500:28)
+    at tsserver.js:124592:128
+    at getIterator (tsserver.js:519:23)
+    at Object.flatMapIterator (tsserver.js:502:27)
+    at Object.getApplicableRefactors (tsserver.js:124591:36)
+    at Proxy.getApplicableRefactors (tsserver.js:135901:32)
+    at IOSession.Session.getApplicableRefactors (tsserver.js:145703:53)
+    at Session.handlers.ts.createMapFromTemplate._a.<computed> (tsserver.js:144528:61)
+    at tsserver.js:146003:88
+    at IOSession.Session.executeWithRequestId (tsserver.js:145994:28)
+    at IOSession.Session.executeCommand (tsserver.js:146003:33)
+    at IOSession.Session.onMessage (tsserver.js:146027:35)
+    at Interface.<anonymous> (tsserver.js:147342:27)
+    at Interface.emit (events.js:203:13)
+    at Interface._onLine (readline.js:316:10)
+    at Interface._normalWrite (readline.js:461:12)
+    at Socket.ondata (readline.js:172:10)
+    at Socket.emit (events.js:203:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+	at Function.create (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:49958)
+	at h.dispatchResponse (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:216914)
+	at h.dispatchMessage (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:215832)
+	at /usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:215308
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:845)
+	at t.Reader.onLengthData (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:223870)
+	at Socket.<anonymous> (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:223518)
+	at Socket.emit (events.js:203:13)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:276:11)
+	at Socket.Readable.push (_stream_readable.js:210:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+[2020-04-14 13:01:32.120] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-14 13:01:32.120] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-14 13:01:57.223] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-14 13:01:57.223] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-14 13:01:58.786] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-14 13:01:58.786] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-14 13:03:19.892] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-14 13:03:19.892] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-14 13:06:00.781] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-14 13:06:00.781] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-14 13:08:24.540] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-14 13:08:24.540] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-14 13:15:49.323] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-14 13:15:49.323] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-14 13:30:21.242] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-14 13:30:21.242] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-14 17:35:32.615] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-14 17:35:32.616] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-14 17:51:36.195] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-14 17:51:36.195] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-14 17:51:37.624] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-14 17:51:37.624] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-14 17:51:37.777] [exthost] [info] [vscode.typescript-language-features] UNSAVE result from 'resolveCompletionItem', extension SHOULD NOT change any of: additionalTextEdits, or command
+[2020-04-14 17:51:38.021] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-14 17:51:38.021] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-14 17:51:38.408] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-14 17:51:38.408] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-14 17:51:40.418] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-14 17:51:40.418] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-14 17:51:44.276] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-14 17:51:44.276] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-14 17:51:44.673] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-14 17:51:44.673] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-14 17:52:16.051] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-14 17:52:16.051] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-14 17:52:16.418] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-14 17:52:16.418] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-14 17:52:44.427] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-14 17:52:44.427] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-14 20:31:48.589] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-14 20:31:48.617] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-14 20:33:07.289] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-14 20:33:07.289] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-14 20:37:24.344] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.cpptools {"startup":false,"extensionId":{"value":"ms-vscode.cpptools","_lower":"ms-vscode.cpptools"},"activationEvent":"onDebug"}
+[2020-04-14 20:37:24.345] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/jesus/.vscode/extensions/ms-vscode.cpptools-0.27.0/dist/main
+[2020-04-14 20:37:24.457] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-server-ready {"startup":false,"extensionId":{"value":"vscode.debug-server-ready","_lower":"vscode.debug-server-ready"},"activationEvent":"onDebugResolve"}
+[2020-04-14 20:37:24.457] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/debug-server-ready/dist/extension
+[2020-04-14 20:37:24.461] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.node-debug2 {"startup":false,"extensionId":{"value":"ms-vscode.node-debug","_lower":"ms-vscode.node-debug"},"activationEvent":"onDebugResolve:node"}
+[2020-04-14 20:37:24.461] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/ms-vscode.node-debug2/out/src/extension
+[2020-04-14 20:37:24.463] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.node-debug {"startup":false,"extensionId":{"value":"ms-vscode.node-debug","_lower":"ms-vscode.node-debug"},"activationEvent":"onDebugResolve:node"}
+[2020-04-14 20:37:24.463] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/ms-vscode.node-debug/dist/extension.js
+[2020-04-14 20:39:06.199] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-14 20:39:06.199] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-14 20:39:06.892] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-14 20:39:06.892] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-14 20:39:07.304] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-14 20:39:07.304] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-14 20:39:09.381] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-14 20:39:09.381] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-14 20:43:02.802] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-14 20:43:02.803] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-14 20:43:39.465] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-14 20:43:39.465] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-14 20:43:42.032] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-14 20:43:42.032] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-14 20:43:42.470] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-14 20:43:42.470] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-14 20:45:15.889] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-14 20:45:15.889] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-14 20:45:16.322] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-14 20:45:16.323] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-14 20:45:16.682] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-14 20:45:16.682] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-14 20:45:20.729] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-14 20:45:20.729] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-14 20:45:21.121] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-14 20:45:21.121] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-14 20:45:22.284] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-14 20:45:22.284] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-14 20:45:23.630] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-14 20:45:23.630] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-14 20:45:26.569] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-14 20:45:26.569] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-14 21:03:38.841] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-14 21:03:38.841] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
