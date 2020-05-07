@@ -5,6 +5,7 @@ import QuienesSomos from './QuienesSomosComponent';
 import PruebaEsfuerzo from './PruebaEsfuerzoComponent';
 import Contacto from './ContactoComponent';
 import DetalleExcursion from './DetalleExcursionComponent';
+import VistaFavoritos from "./VistaFavoritosComponent";
 import { View, StyleSheet, Image, Text } from 'react-native';
 import { NavigationContainer, DrawerActions } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
@@ -158,6 +159,29 @@ function PruebaEsfuerzoNavegador({ navigation }) {
   );
 }
 
+function ExcursionesFavoritasNavegador({ navigation }){
+  return(
+      <Stack.Navigator
+          initialRouteName='Excursiones favoritas'
+          headerMode='screen'
+          screenOptions={{
+              headerTintColor: '#fff',
+              headerStyle: { backgroundColor: colorGaztaroaOscuro},
+              headerTitleStyle: { color: '#fff' },
+              headerLeft: () => (<Icon name="menu" size={28} color= 'white' onPress={ () => navigation.dispatch(DrawerActions.toggleDrawer()) }/>)
+          }}
+      >
+          <Stack.Screen
+              name='Excursiones favoritas'
+              component={VistaFavoritos}
+              options={{
+                  title: 'Excursiones favoritas'
+              }}
+          />
+      </Stack.Navigator>
+  )
+}
+
 function CustomDrawerContent(props) {
   return (
     <DrawerContentScrollView {...props}>
@@ -245,6 +269,18 @@ function DrawerNavegador() {
           )
         }}
       />
+      <Drawer.Screen name='Excursiones favoritas' component={ExcursionesFavoritasNavegador}
+                           options={{
+                               drawerIcon: ({ tintColor }) => (
+                                   <Icon
+                                       name='thumbs-up'
+                                       type='font-awesome'
+                                       size={22}
+                                       color={tintColor}
+                                   />
+                               )
+                           }}
+            />
     </Drawer.Navigator>
   );
 }
