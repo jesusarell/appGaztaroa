@@ -5,6 +5,7 @@ import {baseUrl} from "../comun/comun";
 import { connect } from 'react-redux'
 import Swipeout from 'react-native-swipeout';
 import {borrarFavorito, postComentario, postFavorito} from "../redux/ActionCreators";
+import * as Animatable from 'react-native-animatable';  
 
 const mapStateToProps = state => {
     return {
@@ -45,6 +46,7 @@ class VistaFavoritos extends Component {
                 }
             ]
             return(
+                <Animatable.View animation="bounceInDown" duration={700} delay={700}>
                 <Swipeout right={rightButton} autoClose={true}>
                     <ListItem
                         key={index}
@@ -65,6 +67,7 @@ class VistaFavoritos extends Component {
                         }
                     />
                 </Swipeout>
+                </Animatable.View>
             )
         }
 
