@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import * as Calendar from 'expo-calendar'
 import { Text, View, ScrollView, StyleSheet, Picker, Switch, Button, Modal } from 'react-native';
 import DatePicker from 'react-native-datepicker'
 import { colorGaztaroaOscuro } from '../comun/comun';
@@ -16,8 +17,22 @@ class PruebaEsfuerzo extends Component {
         }
     }
 
-    gestionarReserva() {
-        console.log(JSON.stringify(this.state));
+   async gestionarReserva() {
+        //Documentación: https://docs.expo.io/versions/latest/sdk/calendar/
+        //Necesaria instalación con expo: expo install expo-calendar
+        const { status } = await Calendar.requestCalendarPermissionsAsync();
+        if (status === 'granted') {
+            const calendars = await Calendar.getCalendarsAsync();
+            const detalles = {
+                title: "Prueba de esfuerzo club de montaña Gaztaroa",
+                notes: "Prueba de esfuerzo concertada a través de AppGatzaroa",
+                timeZone: "GMT+2",
+                startDate: new Date(this.state.fecha),
+                endDate: new Date(this.state.fecha)
+            };
+            await Calendar.createEventAsync(calendars[0].id, detalles)
+        }
+        //console.log(JSON.stringify(this.state));
         this.toggleModal();
     }
 
