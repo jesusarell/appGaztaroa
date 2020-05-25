@@ -3,7 +3,6 @@ import { Text, ScrollView } from 'react-native';
 import { Card } from 'react-native-elements';
 import { FlatList } from 'react-native';
 import { ListItem } from 'react-native-elements';
-import { baseUrl } from '../comun/comun';
 import { connect } from 'react-redux';
 import { IndicadorActividad } from './IndicadorActividadComponent';
 import * as Animatable from 'react-native-animatable';
