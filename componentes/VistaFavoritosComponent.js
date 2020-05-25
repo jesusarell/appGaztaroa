@@ -1,7 +1,6 @@
 import React, {Component} from "react";
 import { FlatList, Alert } from "react-native";
 import {ListItem} from "react-native-elements";
-import {baseUrl} from "../comun/comun";
 import { connect } from 'react-redux'
 import Swipeout from 'react-native-swipeout';
 import {borrarFavorito, postComentario, postFavorito} from "../redux/ActionCreators";
@@ -53,7 +52,7 @@ class VistaFavoritos extends Component {
                         title={item.nombre}
                         subtitle={item.descripcion}
                         hideChevron={true}
-                        leftAvatar={{source: {uri: baseUrl + item.imagen} }}
+                        leftAvatar={{source: {uri: item.imagen} }}
                         onPress={() => navigate("DetalleExcursion", { excursionId: item.id })}
                         onLongPress={ () => Alert.alert(
                                                 'Borrar excursión favorita?',

@@ -188,7 +188,7 @@ function CustomDrawerContent(props) {
       <SafeAreaView style={styles.container} forceInset={{ top: 'always', horizontal: 'never' }}>
         <View style={styles.drawerHeader}>
           <View style={{ flex: 1 }}>
-            <Image source={require('./imagenes/logo.png')} style={styles.drawerImage} />
+            <Image source={{uri:'https://firebasestorage.googleapis.com/v0/b/arellanouson-appgaztaroa.appspot.com/o/logo.png?alt=media&token=74317753-6466-4607-9101-af9088b903af'}} style={styles.drawerImage} />
           </View>
           <View style={{ flex: 2 }}>
             <Text style={styles.drawerHeaderText}> Gaztaroa</Text>

@@ -35,7 +35,7 @@ function RenderItem(props) {
                     < Animatable.View animation="slideInLeft" duration={2000} delay={0} >
                         <Card
                             featuredTitle={item.nombre}
-                            image={{ uri: baseUrl + item.imagen }}>
+                            image={{ uri: item.imagen }}>
                             <Text
                                 style={{ margin: 10 }}>
                                 {item.descripcion}</Text>

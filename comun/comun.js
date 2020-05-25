@@ -1,3 +1,4 @@
-export const baseUrl = "http://10.237.218.225:3001/";
+//export const baseUrl = "http://10.237.218.225:3001/";
+export const baseUrl = "https://arellanouson-appgaztaroa.firebaseio.com/";
 export const colorGaztaroaOscuro = '#015afc';
 export const colorGaztaroaClaro = '#c2d3da';
