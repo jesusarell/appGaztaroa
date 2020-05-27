@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import { Text, View, ScrollView, FlatList, Modal, StyleSheet, Alert, PanResponder } from 'react-native';
-import { Card, Icon, Input, Button, Rating } from 'react-native-elements';
+import { Card, Icon, Input, Button, Rating, Image } from 'react-native-elements';
 import { baseUrl, colorGaztaroaOscuro } from '../comun/comun';
 import { connect } from 'react-redux';
 import { postFavorito, postComentario } from "../redux/ActionCreators";
 import * as Animatable from 'react-native-animatable';
 import { useRef } from "react";
+import * as ImageManipulator from "expo-image-manipulator";
+import * as ImagePicker from 'expo-image-picker';
 
 
 const mapStateToProps = state => {
@@ -137,6 +139,8 @@ function RenderComentario(props) {
                     keyExtractor={item => item.id.toString()}
                 />
             </Card>
+
+
         </Animatable.View>
     );
 }
@@ -149,9 +153,59 @@ class DetalleExcursion extends Component {
             rating: 3,
             autor: '',
             comentario: '',
-            showModal: false
+            showModal: false,
+            image: null
         }
     }
+
+    componentDidMount() {
+        this.getPermissionAsync();
+    }
+
+    getPermissionAsync = async () => {
+        if (Constants.platform.Android) {
+            const { status } = await Permissions.askAsync(Permissions.CAMERA_ROLL);
+            if (status !== 'granted') {
+                alert('Debe permitir el acceso a los recursos de su dispositivo móvil.');
+            }
+        }
+    };
+
+    rotate90 = async () => {
+        const manipResult = await ImageManipulator.manipulateAsync(
+            this.state.image,
+            [{ rotate: 90 }],
+            { compress: 1, format: ImageManipulator.SaveFormat.PNG }
+        );
+        this.setState({ image: manipResult.uri });
+    };
+
+    espejoVertical = async () => {
+        const manipResult = await ImageManipulator.manipulateAsync(
+            this.state.image,
+            [{ flip: ImageManipulator.FlipType.Vertical }],
+            { compress: 1, format: ImageManipulator.SaveFormat.PNG }
+        );
+        this.setState({ image: manipResult.uri });
+    };
+
+    pickImage = async () => {
+        try {
+            let result = await ImagePicker.launchImageLibraryAsync({
+                mediaTypes: ImagePicker.MediaTypeOptions.All,
+                allowsEditing: true,
+                aspect: [4, 3],
+                quality: 1,
+            });
+            if (!result.cancelled) {
+                this.setState({ image: result.uri });
+            }
+        } catch (E) {
+        }
+    };
+
+
+
 
     marcarFavorito(excursionId) {
         this.props.postFavorito(excursionId);
@@ -190,6 +244,32 @@ class DetalleExcursion extends Component {
 
     render() {
         const { excursionId } = this.props.route.params;
+        let { image } = this.state;
+        let iconos = <View></View>;
+        if (image !== null) {
+            iconos =
+                <View style={{ flexDirection: "column" }}>
+                    <View style={{ flex: 1, flexDirection: 'row', justifyContent: 'center' }}>
+                        <Icon
+                            raised
+                            reverse
+                            name='undo'
+                            type='font-awesome'
+                            color='#f50'
+                            onPress={this.rotate90}
+                        />
+                        <Icon
+                            raised
+                            reverse
+                            name='arrows-v'
+                            type='font-awesome'
+                            color='#f50'
+                            onPress={this.espejoVertical}
+                        />
+                    </View>
+
+                </View>
+        }
         return (
             <ScrollView>
                 <RenderExcursion
@@ -239,6 +319,13 @@ class DetalleExcursion extends Component {
                         />
                     </View>
                 </Modal>
+                <Animatable.View animation="fadeInUp" duration={2000} delay={1000}>
+                    <Card title="Imágenes personales">
+                        <Button title="Seleccionar imágen" onPress={this.pickImage} />
+                        <Image source={{ uri: image }} style={{ width: 300, height: 300 }} />
+                        {iconos}
+                    </Card>
+                </Animatable.View>
             </ScrollView>
         );
     }

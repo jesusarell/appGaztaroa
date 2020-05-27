@@ -17,6 +17,7 @@ import { colorGaztaroaClaro, colorGaztaroaOscuro } from '../comun/comun';
 import { connect } from 'react-redux';
 import { fetchExcursiones, fetchComentarios, fetchCabeceras, fetchActividades } from '../redux/ActionCreators';
 
+
 const mapStateToProps = state => {
   return {
     excursiones: state.excursiones,
@@ -159,28 +160,29 @@ function PruebaEsfuerzoNavegador({ navigation }) {
   );
 }
 
-function ExcursionesFavoritasNavegador({ navigation }){
-  return(
-      <Stack.Navigator
-          initialRouteName='Excursiones favoritas'
-          headerMode='screen'
-          screenOptions={{
-              headerTintColor: '#fff',
-              headerStyle: { backgroundColor: colorGaztaroaOscuro},
-              headerTitleStyle: { color: '#fff' },
-              headerLeft: () => (<Icon name="menu" size={28} color= 'white' onPress={ () => navigation.dispatch(DrawerActions.toggleDrawer()) }/>)
-          }}
-      >
-          <Stack.Screen
-              name='Excursiones favoritas'
-              component={VistaFavoritos}
-              options={{
-                  title: 'Excursiones favoritas'
-              }}
-          />
-      </Stack.Navigator>
+function ExcursionesFavoritasNavegador({ navigation }) {
+  return (
+    <Stack.Navigator
+      initialRouteName='Excursiones favoritas'
+      headerMode='screen'
+      screenOptions={{
+        headerTintColor: '#fff',
+        headerStyle: { backgroundColor: colorGaztaroaOscuro },
+        headerTitleStyle: { color: '#fff' },
+        headerLeft: () => (<Icon name="menu" size={28} color='white' onPress={() => navigation.dispatch(DrawerActions.toggleDrawer())} />)
+      }}
+    >
+      <Stack.Screen
+        name='Excursiones favoritas'
+        component={VistaFavoritos}
+        options={{
+          title: 'Excursiones favoritas'
+        }}
+      />
+    </Stack.Navigator>
   )
 }
+
 
 function CustomDrawerContent(props) {
   return (
@@ -188,7 +190,7 @@ function CustomDrawerContent(props) {
       <SafeAreaView style={styles.container} forceInset={{ top: 'always', horizontal: 'never' }}>
         <View style={styles.drawerHeader}>
           <View style={{ flex: 1 }}>
-            <Image source={{uri:'https://firebasestorage.googleapis.com/v0/b/arellanouson-appgaztaroa.appspot.com/o/logo.png?alt=media&token=74317753-6466-4607-9101-af9088b903af'}} style={styles.drawerImage} />
+            <Image source={{ uri: 'https://firebasestorage.googleapis.com/v0/b/arellanouson-appgaztaroa.appspot.com/o/logo.png?alt=media&token=74317753-6466-4607-9101-af9088b903af' }} style={styles.drawerImage} />
           </View>
           <View style={{ flex: 2 }}>
             <Text style={styles.drawerHeaderText}> Gaztaroa</Text>
@@ -270,17 +272,17 @@ function DrawerNavegador() {
         }}
       />
       <Drawer.Screen name='Excursiones favoritas' component={ExcursionesFavoritasNavegador}
-                           options={{
-                               drawerIcon: ({ tintColor }) => (
-                                   <Icon
-                                       name='thumbs-up'
-                                       type='font-awesome'
-                                       size={22}
-                                       color={tintColor}
-                                   />
-                               )
-                           }}
+        options={{
+          drawerIcon: ({ tintColor }) => (
+            <Icon
+              name='thumbs-up'
+              type='font-awesome'
+              size={22}
+              color={tintColor}
             />
+          )
+        }}
+      />
     </Drawer.Navigator>
   );
 }
