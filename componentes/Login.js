@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import { View, Text, TextInput, Button, StyleSheet } from 'react-native';
-import { colorGaztaroaOscuro } from '../comun/comun';
+import { colorGaztaroaOscuro, ANDROID_CLIENT_ID, firebaseConfig } from '../comun/comun';
 import { addAuth} from "../redux/ActionCreators";
 import { connect } from 'react-redux'
-
+import * as Google from "expo-google-app-auth";
+import firebase from 'firebase';
 const mapStateToProps = state => {
   return {
       auth: state.auth,
@@ -14,6 +15,7 @@ const mapDispatchToProps = dispatch => ({
   addAuth: (email) => dispatch(addAuth (email))
 })
 
+firebase.initializeApp(firebaseConfig);
 
 class LoginScreen extends Component {
   constructor(props) {
@@ -58,11 +60,32 @@ class LoginScreen extends Component {
       });
   };
 
+  signInWithGoogle = async () => {
+    try {
+      console.log('Intentando autenticar');
+      const result = await Google.logInAsync({
+        androidClientId: ANDROID_CLIENT_ID,
+        scopes: ["profile", "email"]
+      });
+
+      if (result.type === "success") {
+        console.log("LoginScreen.js.js 21 | ", result.user);
+        this.props.addAuth(result.user.email)
+        this.props.navigation.navigate("Inicio")
+      } else {
+        return { cancelled: true };
+      }
+    } catch (e) {
+      console.log('LoginScreen.js.js 30 | Error with login', e);
+      return { error: true };
+    }
+  };
   render() {
     const { navigate } = this.props.navigation;
     if( this.props.auth.email  != null){ //En caso de que se haya logeado previamente, no mostramos el screen de autenticación. Inciamos normalmente.
       navigate('Inicio')
     }
+  
 
     return (
       <View style={styles.contianer}>
@@ -91,6 +114,7 @@ class LoginScreen extends Component {
 
         <View style={styles.button}>
           <Button title="Acceder" onPress={() => this.loginHandler({navigate})} style={styles.button} disabled={(this.state.email === "" || this.state.password === "")} />
+          <Button title="Iniciar sesión con Google" onPress={this.signInWithGoogle} />
         </View>
 
         <Text style={styles.text}>¿Todavía no tienes una cuenta? <Text onPress={() => navigate('SignUp')} style={styles.navigateText}>Registrarse</Text></Text>
