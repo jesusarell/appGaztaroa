@@ -165,3 +165,15 @@ export const addComentario = (comentario) => ({
     type: ActionTypes.ADD_COMENTARIO,
     payload: comentario
 });
+
+
+export const addAuth = (email) => ({
+    type: ActionTypes.ADD_AUTH,
+    payload: email
+});
+
+
+export const delAuth = (email) => ({
+    type: ActionTypes.DEL_AUTH,
+    payload: email
+});

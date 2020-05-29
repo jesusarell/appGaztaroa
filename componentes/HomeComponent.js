@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Text, ScrollView, View } from 'react-native';
 import { Card } from 'react-native-elements';
-import { baseUrl } from '../comun/comun';
 import { connect } from 'react-redux';
 import { IndicadorActividad } from './IndicadorActividadComponent';
 import * as Animatable from 'react-native-animatable';
@@ -10,7 +9,8 @@ const mapStateToProps = state => {
     return {
         excursiones: state.excursiones,
         cabeceras: state.cabeceras,
-        actividades: state.actividades
+        actividades: state.actividades,
+        auth: state.auth
     }
 }
 
@@ -55,6 +55,13 @@ function RenderItem(props) {
 
             return (
                 <ScrollView>
+                    < Animatable.View animation="slideInLeft" duration={2000} delay={0} >
+                        <Card>
+                            <Text
+                                style={{ margin: 10 }}>
+                                ¡Bienvenido {this.props.auth.email}!</Text>
+                        </Card>
+                    </Animatable.View>
                     <RenderItem item={this.props.cabeceras.cabeceras.filter((cabecera) => cabecera.destacado)[0]} />
                     <RenderItem item={this.props.actividades.actividades.filter((actividad) => actividad.destacado)[0]} />
                     <RenderItem item={this.props.excursiones.excursiones.filter((excursion) => excursion.destacado)[0]}

@@ -6,6 +6,9 @@ import PruebaEsfuerzo from './PruebaEsfuerzoComponent';
 import Contacto from './ContactoComponent';
 import DetalleExcursion from './DetalleExcursionComponent';
 import VistaFavoritos from "./VistaFavoritosComponent";
+import LoginScreen from './Login';
+import SignUpScreen from './SignUp';
+import CerrarSesion from './CerrarSesionComponent';
 import { View, StyleSheet, Image, Text } from 'react-native';
 import { NavigationContainer, DrawerActions } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
@@ -183,6 +186,40 @@ function ExcursionesFavoritasNavegador({ navigation }) {
   )
 }
 
+function LoginNavegador({ navigation }) {
+  return (
+    <Stack.Navigator headerMode="none">
+      <Stack.Screen name="Login" component={LoginScreen} />
+      <Stack.Screen name="SignUp" component={SignUpScreen} />
+      <Stack.Screen name="Inicio" component={DrawerNavegador} />
+    </Stack.Navigator>
+  );
+}
+
+
+function CerrarSesionNavegador({ navigation }) {
+  return (
+    <Stack.Navigator
+      initialRouteName='Cerrar sesión'
+      headerMode='screen'
+      screenOptions={{
+        headerTintColor: '#fff',
+        headerStyle: { backgroundColor: colorGaztaroaOscuro },
+        headerTitleStyle: { color: '#fff' },
+        headerLeft: () => (<Icon name="menu" size={28} color='white' onPress={() => navigation.dispatch(DrawerActions.toggleDrawer())} />)
+      }}
+    >
+      <Stack.Screen
+        name='Cerrar sesión'
+        component={CerrarSesion}
+        options={{
+          title: 'Cerrar sesión'
+        }}
+      />
+    </Stack.Navigator>
+  )
+}
+
 
 function CustomDrawerContent(props) {
   return (
@@ -283,6 +320,19 @@ function DrawerNavegador() {
           )
         }}
       />
+
+      <Drawer.Screen name='Cerrar sesión' component={CerrarSesionNavegador}
+        options={{
+          drawerIcon: ({ tintColor }) => (
+            <Icon
+              name='sign-out'
+              type='font-awesome'
+              size={22}
+              color={tintColor}
+            />
+          )
+        }}
+      />
     </Drawer.Navigator>
   );
 }
@@ -301,7 +351,8 @@ class Campobase extends Component {
     return (
       <NavigationContainer>
         <View style={{ flex: 1, paddingTop: Platform.OS === 'android' ? 0 : Constants.statusBarHeight }}>
-          <DrawerNavegador />
+          {/* <DrawerNavegador /> */}
+          <LoginNavegador />
         </View>
       </NavigationContainer>
     );
