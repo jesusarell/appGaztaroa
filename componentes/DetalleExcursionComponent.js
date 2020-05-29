@@ -14,7 +14,8 @@ const mapStateToProps = state => {
     return {
         excursiones: state.excursiones,
         comentarios: state.comentarios,
-        favoritos: state.favoritos
+        favoritos: state.favoritos,
+        auth: state.auth
     }
 }
 
@@ -151,7 +152,7 @@ class DetalleExcursion extends Component {
         super(props);
         this.state = {
             rating: 3,
-            autor: '',
+            autor: this.props.auth.email,
             comentario: '',
             showModal: false,
             image: null
@@ -288,17 +289,20 @@ class DetalleExcursion extends Component {
                     onDismiss={() => { this.toggleModal(); this.resetForm(); }}
                     onRequestClose={() => { this.toggleModal(); this.resetForm(); }}>
                     <View style={styles.modal}>
+
                         <Rating
                             showRating
                             startingValue={3}
                             onFinishRating={rating => this.setState({ rating: rating })}
                         />
-                        <Input
-                            placeholder='Autor'
+
+                        {/* <Input
+                            placeholder='Autor: '
                             leftIcon={{ type: 'font-awesome', name: 'user' }}
                             leftIconContainerStyle={{ marginRight: 15 }}
                             onChangeText={value => this.setState({ autor: value })}
-                        />
+                        /> */}
+
                         <Input
                             placeholder='Comentario'
                             leftIcon={{ type: 'font-awesome', name: 'comment' }}
@@ -318,7 +322,15 @@ class DetalleExcursion extends Component {
                             type='clear'
                         />
                     </View>
+                    <View style={{ flex: 1, flexDirection: 'row', alignItems: 'center', justifyContent:"center"}}>
+                        <Icon raised
+                                reverse
+                                name='user'
+                                type='font-awesome' />
+                        <Text>{this.props.auth.email}</Text>
+                    </View>
                 </Modal>
+
                 <Animatable.View animation="fadeInUp" duration={2000} delay={1000}>
                     <Card title="Imágenes personales">
                         <Button title="Seleccionar imágen" onPress={this.pickImage} />
